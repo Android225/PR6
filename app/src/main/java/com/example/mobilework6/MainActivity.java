@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         stopService(intent);
 
     }
+
     private void showNotification() {
         NotificationCompat.Builder builder = new
                 NotificationCompat.Builder(this, CHANNEL_ID)

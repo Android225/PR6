@@ -30,7 +30,6 @@ public class ServiceCustom extends Service {
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
                 PixelFormat.TRANSLUCENT);
 
-
         View view = LayoutInflater.from(this).inflate(R.layout.banner, null);
         ((TextView) view.findViewById(R.id.textBanner)).setText("banner");
         windowManager.addView(view, params);
